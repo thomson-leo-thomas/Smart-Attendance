@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Attendance - Analytics Dashboard</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h2>Smart Attendance</h2>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="#overview" class="menu-item active"><i class="fa-solid fa-chart-line"></i> Dashboard</a>
+                <a href="#students" class="menu-item"><i class="fa-solid fa-user-graduate"></i> Student Registry</a>
+                <a href="#logs" class="menu-item"><i class="fa-solid fa-calendar-check"></i> Attendance Logs</a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>AI Classroom Agent v2.0</p>
+                <span class="status-badge"><span class="dot"></span> Online</span>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Navigation / Header -->
+            <header class="top-nav">
+                <div class="page-title">
+                    <h1 id="page-heading">Classroom Analytics Dashboard</h1>
+                    <p class="subtitle">Real-time attendance insights synced from local AI agent</p>
+                </div>
+                <div class="sync-info">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <span>Last Synced: <strong id="last-sync-time">Never</strong></span>
+                </div>
+            </header>
+
+            <!-- Overview Section -->
+            <section id="overview-section" class="content-section active-section">
+                <!-- Metrics Grid -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-info">
+                            <span class="metric-label">Total Registered</span>
+                            <h3 class="metric-value" id="stat-total-students">0</h3>
+                            <span class="metric-subtext">Registered Students</span>
+                        </div>
+                        <div class="metric-icon students-color">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card">
+                        <div class="metric-info">
+                            <span class="metric-label">Total Records</span>
+                            <h3 class="metric-value" id="stat-total-records">0</h3>
+                            <span class="metric-subtext">Present & Absent Logs</span>
+                        </div>
+                        <div class="metric-icon records-color">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-info">
+                            <span class="metric-label">Attendance Rate</span>
+                            <h3 class="metric-value" id="stat-attendance-rate">0%</h3>
+                            <span class="metric-subtext">Overall attendance average</span>
+                        </div>
+                        <div class="metric-icon rate-color">
+                            <i class="fa-solid fa-percent"></i>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-info">
+                            <span class="metric-label">Absent Alerts</span>
+                            <h3 class="metric-value" id="stat-absent-alerts">0</h3>
+                            <span class="metric-subtext">Notifications dispatched</span>
+                        </div>
+                        <div class="metric-icon alerts-color">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3><i class="fa-solid fa-chart-bar"></i> Subject Attendance Breakdown</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="subjectChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3><i class="fa-solid fa-chart-pie"></i> Student Status Distribution</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="statusChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Logs Table -->
+                <div class="table-card margin-top">
+                    <div class="table-header">
+                        <h3><i class="fa-solid fa-clock-rotate-left"></i> Recent Activity Logs</h3>
+                        <a href="#logs" class="view-all-btn">View Full Logs</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Roll Number</th>
+                                    <th>Student Name</th>
+                                    <th>Subject</th>
+                                    <th>Date</th>
+                                    <th>Time</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recent-logs-tbody">
+                                <tr>
+                                    <td colspan="6" class="empty-table">Loading dashboard activity data...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Students Section -->
+            <section id="students-section" class="content-section">
+                <div class="table-card">
+                    <div class="table-header search-header">
+                        <h3><i class="fa-solid fa-users-rectangle"></i> Registered Student Registry</h3>
+                        <div class="search-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="search-students-input" placeholder="Search by name, roll, or dept...">
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Roll Number</th>
+                                    <th>Name</th>
+                                    <th>Department</th>
+                                    <th>Semester</th>
+                                </tr>
+                            </thead>
+                            <tbody id="students-tbody">
+                                <tr>
+                                    <td colspan="4" class="empty-table">No students registered yet. Run local registry module.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Logs Section -->
+            <section id="logs-section" class="content-section">
+                <div class="table-card">
+                    <div class="table-header search-header">
+                        <h3><i class="fa-solid fa-receipt"></i> Full Attendance Transaction Logbook</h3>
+                        <div class="search-row">
+                            <div class="search-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="search-logs-input" placeholder="Search name or subject...">
+                            </div>
+                            <select id="filter-status-select" class="styled-select">
+                                <option value="ALL">All Statuses</option>
+                                <option value="Present">Present Only</option>
+                                <option value="Absent">Absent Only</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Record ID</th>
+                                    <th>Roll Number</th>
+                                    <th>Student Name</th>
+                                    <th>Subject</th>
+                                    <th>Date</th>
+                                    <th>Time</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="logs-tbody">
+                                <tr>
+                                    <td colspan="7" class="empty-table">No logs available. Run scanner to mark attendance.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Error/Warning Toast -->
+    <div id="no-data-modal" class="modal">
+        <div class="modal-content">
+            <i class="fa-solid fa-circle-exclamation warning-icon"></i>
+            <h3>No Live Data File Found!</h3>
+            <p>The dashboard is currently reading simulated sample data. To connect your live classroom data, make sure you run the Python local desktop application and export/register records, which will generate the <code>web/attendance_data.json</code> file.</p>
+            <button class="modal-btn" onclick="closeModal()">Got it</button>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>

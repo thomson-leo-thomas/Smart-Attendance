@@ -1,0 +1,877 @@
+{
+    "last_sync": "2026-08-05 22:19:53",
+    "students": [
+        {
+            "roll_number": "CSE-001",
+            "name": "Aarav Sharma",
+            "department": "Computer Science",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "CSE-002",
+            "name": "Ananya Iyer",
+            "department": "Computer Science",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "CSE-003",
+            "name": "Rohan Varma",
+            "department": "Computer Science",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "CSE-004",
+            "name": "Ishaan Gupta",
+            "department": "Computer Science",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "CSE-005",
+            "name": "Priya Nair",
+            "department": "Computer Science",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "CSE-006",
+            "name": "Kabir Mehta",
+            "department": "Computer Science",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "ECE-012",
+            "name": "Vikram Sen",
+            "department": "Electronics & Comm",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "ECE-015",
+            "name": "Siddharth Rao",
+            "department": "Electronics & Comm",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "ME-045",
+            "name": "Neha Patil",
+            "department": "Mechanical Eng",
+            "semester": "VIII"
+        },
+        {
+            "roll_number": "EE-022",
+            "name": "Rahul Deshmukh",
+            "department": "Electrical Eng",
+            "semester": "VIII"
+        }
+    ],
+    "attendance": [
+        {
+            "attendance_id": 1,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-05",
+            "time": "10:15:00",
+            "subject": "AI_Lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 2,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 3,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 4,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 5,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 6,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 7,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 8,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-05",
+            "time": "10:15:00",
+            "subject": "AI_Lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 9,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 10,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 11,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-05",
+            "time": "10:15:00",
+            "subject": "Computer_Vision",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 12,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 13,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 14,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 15,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 16,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 17,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 18,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-05",
+            "time": "10:15:00",
+            "subject": "Computer_Vision",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 19,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 20,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 21,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-05",
+            "time": "10:15:00",
+            "subject": "Deep_Learning",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 22,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 23,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 24,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 25,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 26,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 27,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 28,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-05",
+            "time": "10:15:00",
+            "subject": "Deep_Learning",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 29,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 30,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-05",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 31,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 32,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 33,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 34,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 35,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 36,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 37,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-04",
+            "time": "10:15:00",
+            "subject": "AI_Lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 38,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 39,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 40,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 41,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 42,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 43,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 44,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 45,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 46,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 47,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-04",
+            "time": "10:15:00",
+            "subject": "Computer_Vision",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 48,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 49,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 50,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 51,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 52,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 53,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 54,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 55,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 56,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 57,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-04",
+            "time": "10:15:00",
+            "subject": "Deep_Learning",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 58,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 59,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 60,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-04",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 61,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 62,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 63,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 64,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 65,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 66,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-03",
+            "time": "10:15:00",
+            "subject": "AI_Lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 67,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 68,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 69,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 70,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "AI_Lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 71,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 72,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 73,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 74,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 75,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 76,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-03",
+            "time": "10:15:00",
+            "subject": "Computer_Vision",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 77,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 78,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 79,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 80,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Computer_Vision",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 81,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 82,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 83,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 84,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 85,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 86,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-03",
+            "time": "10:15:00",
+            "subject": "Deep_Learning",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 87,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 88,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 89,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 90,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-03",
+            "time": "09:05:00",
+            "subject": "Deep_Learning",
+            "status": "Present"
+        }
+    ]
+}
