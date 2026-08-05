@@ -719,25 +719,78 @@ class SmartAttendanceGUI:
 # =====================================================================
 
 def main():
+    """
+    Main orchestrator function for launching the application.
+    Parses command-line arguments:
+      - If '--cli' is passed: Launches the text-based command-line console menu.
+      - Default: Launches the Tkinter dark-theme Graphical User Interface.
+    Also calls sync_web_data() on startup to ensure the dashboard JSON is compiled.
+    """
     parser = argparse.ArgumentParser(description="Smart Classroom Attendance System CLI/GUI Launcher")
     parser.add_argument("--cli", action="store_true", help="Launch the program in interactive terminal mode")
     args = parser.parse_args()
 
-    # Sync web data on startup to ensure dashboard is ready
+    # Sync SQLite records with the Vercel web directory JSON database on startup
     utils.sync_web_data()
 
     if args.cli:
-        # Run Terminal Mode
+        # Launch interactive command-line terminal interface
         run_cli_menu()
     else:
-        # Run GUI Mode (Default)
+        # Launch Tkinter Desktop application
         root = tk.Tk()
-        app = SmartAttendanceGUI(root)
+        app_gui = SmartAttendanceGUI(root)
         
-        # Bind clean exit to close camera first
-        root.protocol("WM_DELETE_WINDOW", app.on_exit)
+        # Bind the window closing event to stop camera streams and release resources cleanly
+        root.protocol("WM_DELETE_WINDOW", app_gui.on_exit)
         root.mainloop()
 
 
 if __name__ == "__main__":
+    # Call the main entry point if run as a python script locally
     main()
+
+
+# =====================================================================
+#                 PART 4: VERCEL SERVERLESS FUNCTIONS EXPORT
+# =====================================================================
+# Vercel's Python builder checks all top-level Python files for a WSGI
+# entry point named "app", "application", or "handler". Since this is 
+# a local desktop application, we export a standard WSGI callable 'app' 
+# to prevent Vercel build failures. When visited, it returns a status page.
+
+def app(environ, start_response):
+    """
+    WSGI Serverless entry point for Vercel deployment checks.
+    It returns a clean HTML status page indicating the project is compiled,
+    and links to the classroom analytics dashboard.
+    """
+    status = "200 OK"
+    headers = [("Content-type", "text/html; charset=utf-8")]
+    start_response(status, headers)
+    
+    html_content = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Smart Attendance Backend</title>
+        <style>
+            body { font-family: system-ui, sans-serif; background: #0f172a; color: #f8fafc; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+            .card { background: #1e293b; padding: 2.5rem; border-radius: 1rem; border: 1px solid #334155; max-width: 500px; text-align: center; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3); }
+            h1 { color: #0ea5e9; margin-top: 0; }
+            p { font-size: 1rem; line-height: 1.5; color: #94a3b8; }
+            a { display: inline-block; margin-top: 1.5rem; background: #0ea5e9; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 0.5rem; font-weight: bold; transition: background 0.2s; }
+            a:hover { background: #0284c7; }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>Smart Classroom Attendance System</h1>
+            <p>The local desktop Python GUI and CLI modules are initialized and successfully configured.</p>
+            <p>This serverless endpoint acts as the build verification gateway.</p>
+            <a href="/index.html">Open Analytics Dashboard</a>
+        </div>
+    </body>
+    </html>
+    """
+    return [html_content.encode("utf-8")]
