@@ -75,12 +75,3 @@ python seed_data.py
 
 ---
 
-## 🌐 Web Dashboard Deployment (Vercel)
-
-To host the analytics dashboard on Vercel:
-
-1. Create a GitHub repository and push your project code.
-2. Go to [Vercel](https://vercel.com) and import your repository.
-3. **Important**: Set the **Root Directory** settings to `web`.
-4. Deploy!
-5. Whenever you run your local python scanner, it updates `web/attendance_data.json`. Commit and push this file to GitHub to update your live dashboard charts instantly.
