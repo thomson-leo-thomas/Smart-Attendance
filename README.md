@@ -225,9 +225,9 @@ python main.py --cli
 
 The complete project report is available here.
 
-📘 **[AI-Based Smart Classroom Attendance System Report](./report%20assignment.pdf)**
+📄 **[Project Report](./report%20assignment.pdf)**
 
-🎥 **[Project Demonstration Video](https://drive.google.com/file/d/1Irr5b7gJGjro3Ldrq3gsTFpQ1_PkjVGx/view?usp=drivesdk)**
+🎥 **[Project Demo](https://drive.google.com/file/d/1Irr5b7gJGjro3Ldrq3gsTFpQ1_PkjVGx/view?usp=drivesdk)**
 ---
 
 # 🚀 Future Enhancements
@@ -245,15 +245,8 @@ The complete project report is available here.
 
 ---
 
-# 👨‍💻 Author
-
-**Thomson Leo Thomas**
-
-Group 2
-Artificial Intelligence 
-
----
-
 ## 📜 License
 
 MIT License © 2026 Thomson Leo Thomas
+Group 2
+Artificial Intelligence 
