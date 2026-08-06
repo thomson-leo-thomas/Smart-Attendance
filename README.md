@@ -227,6 +227,7 @@ The complete project report is available here.
 
 📘 **[AI-Based Smart Classroom Attendance System Report](./report%20assignment.pdf)**
 
+🎥 **[Project Demonstration Video](https://drive.google.com/file/d/1Irr5b7gJGjro3Ldrq3gsTFpQ1_PkjVGx/view?usp=drivesdk)**
 ---
 
 # 🚀 Future Enhancements
