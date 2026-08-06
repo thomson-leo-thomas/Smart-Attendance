@@ -146,10 +146,6 @@ Detects eye presence to reduce attendance fraud using photographs or mobile scre
 
 Displays attendance statistics, participation trends, and absentee reports.
 
-### 🔹 Parent Notification
-
-Automatically generates notifications for absent students.
-
 ---
 
 # 🛠️ Technology Stack
@@ -229,7 +225,7 @@ python main.py --cli
 
 The complete project report is available here.
 
-📘 **[AI-Based Smart Classroom Attendance System Report](reports/AI_Report.pdf)**
+📘 **[AI-Based Smart Classroom Attendance System Report](report assignment.pdf)**
 
 ---
 
