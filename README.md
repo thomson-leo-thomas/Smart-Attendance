@@ -225,7 +225,7 @@ python main.py --cli
 
 The complete project report is available here.
 
-📘 **[AI-Based Smart Classroom Attendance System Report](report assignment.pdf)**
+📘 **[AI-Based Smart Classroom Attendance System Report](./report%20assignment.pdf)**
 
 ---
 
