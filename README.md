@@ -1,4 +1,4 @@
-# 🎓 AI-Based Smart Classroom Attendance System
+9# 🎓 AI-Based Smart Classroom Attendance System
 
 An intelligent classroom attendance system that uses **Artificial Intelligence**, **Computer Vision**, and **Facial Recognition** to automate attendance management. The system recognizes registered students in real time, prevents proxy attendance using liveness verification, stores attendance records in an SQLite database, and provides analytics through a web dashboard.
 
@@ -249,9 +249,10 @@ The complete project report is available here.
 **Thomson Leo Thomas**
 
 Group 2
-
-Artificial Intelligence Lab Project
+Artificial Intelligence 
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!
+## 📜 License
+
+MIT License © 2026 Thomson Leo Thomas
