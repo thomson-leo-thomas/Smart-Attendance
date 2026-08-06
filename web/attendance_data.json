@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-05 22:19:53",
+    "last_sync": "2026-08-06 11:14:00",
     "students": [
         {
             "roll_number": "CSE-001",
@@ -60,6 +60,24 @@
             "name": "Rahul Deshmukh",
             "department": "Electrical Eng",
             "semester": "VIII"
+        },
+        {
+            "roll_number": "59",
+            "name": "Thomson Leo Thomas",
+            "department": "cse",
+            "semester": "s7"
+        },
+        {
+            "roll_number": "22",
+            "name": "dawn",
+            "department": "cse",
+            "semester": "s7"
+        },
+        {
+            "roll_number": "13",
+            "name": "Anjoe",
+            "department": "cse",
+            "semester": "7"
         }
     ],
     "attendance": [
@@ -871,6 +889,222 @@
             "date": "2026-08-03",
             "time": "09:05:00",
             "subject": "Deep_Learning",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 91,
+            "roll_number": "59",
+            "student_name": "Thomson Leo Thomas",
+            "date": "2026-08-05",
+            "time": "22:56:06",
+            "subject": "compiler lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 92,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 93,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 94,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 95,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 96,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 97,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 98,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 99,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 100,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 101,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-05",
+            "time": "22:57:02",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 102,
+            "roll_number": "22",
+            "student_name": "dawn",
+            "date": "2026-08-06",
+            "time": "11:05:50",
+            "subject": "compiler lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 103,
+            "roll_number": "59",
+            "student_name": "Thomson Leo Thomas",
+            "date": "2026-08-06",
+            "time": "11:05:56",
+            "subject": "compiler lab",
+            "status": "Present"
+        },
+        {
+            "attendance_id": 104,
+            "roll_number": "CSE-001",
+            "student_name": "Aarav Sharma",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 105,
+            "roll_number": "CSE-002",
+            "student_name": "Ananya Iyer",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 106,
+            "roll_number": "CSE-004",
+            "student_name": "Ishaan Gupta",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 107,
+            "roll_number": "CSE-006",
+            "student_name": "Kabir Mehta",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 108,
+            "roll_number": "ME-045",
+            "student_name": "Neha Patil",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 109,
+            "roll_number": "CSE-005",
+            "student_name": "Priya Nair",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 110,
+            "roll_number": "EE-022",
+            "student_name": "Rahul Deshmukh",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 111,
+            "roll_number": "CSE-003",
+            "student_name": "Rohan Varma",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 112,
+            "roll_number": "ECE-015",
+            "student_name": "Siddharth Rao",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 113,
+            "roll_number": "ECE-012",
+            "student_name": "Vikram Sen",
+            "date": "2026-08-06",
+            "time": "11:07:05",
+            "subject": "compiler lab",
+            "status": "Absent"
+        },
+        {
+            "attendance_id": 114,
+            "roll_number": "13",
+            "student_name": "Anjoe",
+            "date": "2026-08-06",
+            "time": "11:14:00",
+            "subject": "compiler lab",
             "status": "Present"
         }
     ]
